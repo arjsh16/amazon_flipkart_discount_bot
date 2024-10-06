@@ -1,10 +1,10 @@
-
+#importing the libraries
 from  scraping import *
 from send_mail import *
 import time
 import tkinter as tk
 from tkinter import messagebox
-
+#defining the fuc=nction that starts scraing when the button is clicked
 def start_scraping():
     start_button.pack_forget()
     user_mail=mail_entry.get()
@@ -52,12 +52,12 @@ def start_scraping():
         return
     
     status_label.config(text="Scraping started...")
-
+#creating the gui
 root = tk.Tk()
 root.title("Item Discounts Checker")
 root.geometry("400x350")
 root.configure(bg='#001F3F')
-
+#colour pallete for the gui
 bg_color = '#001F3F'
 input_bg_color = "#ECDFCC"
 button_color = "#ECDFCC"
@@ -80,5 +80,5 @@ start_button.pack(pady=20)
 
 status_label = tk.Label(root, text="", bg=bg_color, fg=text_color)
 status_label.pack(pady=(10, 0))
-
+#main loop
 root.mainloop()
