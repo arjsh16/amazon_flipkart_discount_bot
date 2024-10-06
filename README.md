@@ -1,2 +1,23 @@
-# amazon_discount_bot
-A Python script that monitors the discount percentage of a specific product on Amazon or Flipkart. When the product's discount increases over a user-defined threshold, send an email notification to the user.
+# Discount Bot
+
+A simple discount scraper for Amazon and Flipkart that monitors price changes and sends email notifications when discounts that the user wants are available.
+
+## Features
+- Scrapes discount data from Amazon and Flipkart.
+- Sends email notifications when a discount is detected.
+- User-friendly GUI built with Tkinter.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/discount-scraper.git
+   cd discount-scraper
+
+## Usage
+
+1.Downlad and run the exe file like a normal app
+2.Install the source code and run it in the terminal using python End_Product.py
+
+## License
+  This code is under GNU gpl 3 license 
