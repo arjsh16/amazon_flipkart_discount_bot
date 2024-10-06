@@ -23,4 +23,4 @@ A simple discount scraper for Amazon and Flipkart that monitors price changes an
 
 
 ## License
-  This code is under GNU gpl 3 license 
+  This code is under GNU AGPL-3.0 license 
