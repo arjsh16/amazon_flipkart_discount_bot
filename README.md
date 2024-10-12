@@ -19,7 +19,7 @@ A simple discount scraper for Amazon and Flipkart that monitors price changes an
 1. **Run the script**:
    To run the script, use the following command in your terminal:
    ```bash
-   python send_mail.py
+   python End_Product.py
 
 
 ## License
